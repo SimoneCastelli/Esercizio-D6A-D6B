@@ -1,0 +1,434 @@
+body {
+    background-color: #E3E6E6;
+    width: 100%;
+    margin: 0;
+
+}
+
+header {
+    position: fixed;
+    background-color: #232F3E;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo1 {
+    width: 10%;
+    background-color: #232F3E;
+    padding: 3px 27px;
+}
+
+.topbar {
+    background-color: #485769;
+    padding: 7px 0;
+    padding-left: 17px;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+main {
+    margin:30px;
+    margin-top: 0;
+    padding-top: 130px;
+}
+
+.orange-span {
+    background-color: #F56600;
+    text-align: center;
+    color: white;
+    padding: 0.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-image {
+    background-image: url(./assets/bg-image.png);
+    color: white;
+    height: 150px;
+    line-height: 60px;
+    background-size: 100% 100%;
+}
+
+.centered {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+#top-h2 {
+    margin-bottom: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+.container {
+    background-color: white;
+    margin: 1.9rem 0;
+    height: 550px;
+}
+
+
+
+.container-img {
+    display: inline;
+    width: 380px;
+    height: 460px;
+    border-radius: 30px;
+    margin: 0px 5px;
+    margin-bottom: 20px;
+    padding:5px;
+    object-fit: cover;
+    
+}
+.container-back {
+    display: inline-block;
+    width: 380px;
+    height: 460px;
+    
+
+    
+}
+
+.background-img {
+    background-image: url(./assets/img_1.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 5px 5px #b8b8b8;
+    position: relative;
+    right: 130px; 
+}
+
+.background-img-1 {
+    background-image: url(./assets/img_2.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 5px 5px #b8b8b8;
+    position: relative;
+    left: -39px;   
+}
+
+.background-img-2 {
+    background-image: url(./assets/img_3.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 5px 5px #b8b8b8;
+    position: relative;
+    left: 49px; 
+    
+}
+.background-img-3 {
+    background-image: url(./assets/img_4.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 5px 5px #b8b8b8;
+    position: relative; 
+    left: 127px; 
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    transition: all 0.2s;
+    opacity: 0;
+}
+
+.overlay:hover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.heart {
+    position: absolute;
+    border: 0;
+    font-size: 30px;
+    right: 20px;
+    top: 20px;
+    background-color:rgba(0,0,0,0);
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.heart:hover {
+    position: absolute;
+    border: 0;
+    font-size: 30px;
+    right: 20px;
+    top: 20px;
+    background-color:rgba(0,0,0,0);
+    color:red;
+    cursor: pointer;
+}
+
+.cart {
+    position: absolute;
+    border: 0;
+    font-size: 20px;
+    top: 400px;
+    left: 52px;
+    padding: 5px 80px;
+    border-radius: 10px;
+    background-color: #007185;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.cart:hover {
+    position: absolute;
+    border: 0;
+    font-size: 20px;
+    top: 400px;
+    left: 52px;
+    padding: 5px 80px;
+    border-radius: 10px;
+    background-color: rgb(11, 80, 92);
+    cursor: pointer;
+}
+
+.icon-cart {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    left: -5px;
+    top: 3px;
+    
+}
+
+.add {
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.container-text {
+    text-align: left;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container-text p {
+    padding-top: 20px;
+}
+
+.container-text a {
+    color: #007185;
+    text-decoration: none;
+}
+
+
+.container-mini-container {
+    width: 100%;
+    height: 480px;
+}
+
+.mini-container {
+    display: inline-block;
+    background-color: white;
+    height: 480px;
+    width: 420px;
+    margin: 0;
+    position: relative;
+}
+
+.absolute-h2 {
+    position: absolute;
+    left: 45px;
+    top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-1-gaming {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+}
+
+.img-2-gaming {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+}
+
+.img-3-gaming {
+    position: absolute;
+    top: 280px;
+    left: 25px;
+}
+
+.img-4-gaming {
+    position: absolute;
+    top: 280px;
+    left: 230px;
+}
+
+.img-1 {
+    position: absolute;
+    top: 75px;
+    left: 45px;   
+}
+
+.img-2 {
+    position: absolute;
+    top: 75px;
+    left: 245px;
+}
+
+.img-3 {
+    position: absolute;
+    top: 255px;
+    left: 45px;
+}
+
+.img-4 {
+    position: absolute;
+    top: 255px;
+    left: 245px;
+}
+
+.p-1 {
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 45px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-2 {
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 245px;
+    top: 200px;
+}
+
+.p-3 {
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 380px;
+    left: 45px;
+}
+
+.p-4 {
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 245px;
+    top: 380px;
+}
+
+.see-more {
+    position: absolute;
+    top: 440px;
+    left: 45px;
+}
+
+.ancor-see {
+    color: #007185;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mini-image {
+    display: inline-block;
+    width: 135px;
+    height: 135px;
+}
+
+.mini-image-gaming {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box-2 {
+    left: 55px;
+}
+
+.box-3 {
+    left: 110px;
+}
+
+.box-4 {
+    left: 151px;
+}
+
+
+.container-text1 {
+    text-align: center;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container-text1 p {
+    margin: 0;
+}
+
+.container-text1 a {
+    text-decoration: none;
+    color: #007185;
+}
+
+
+.bottom-img {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.bottom-img1 {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+footer {
+    width: 100%;
+    background-color: #232F3E;
+    text-align: center;
+}
+
+.downbar {
+    background-color: #485769;
+    height: 20px;
+    padding: 7px 0;
+}
+
+.downbar a {
+    color: white;
+    padding: 7px 0;
+}
+
+.logo-end {
+    width: 10%;
+    padding: 50px 0;
+}
